@@ -1,3 +1,6 @@
+'''
+在图像右上角添加数字
+'''
 import os
 
 from PIL import Image,ImageDraw,ImageFont,ImageColor
