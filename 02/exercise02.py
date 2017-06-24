@@ -3,9 +3,9 @@
 '''
 import string,random
 
+
 poolOfchars=string.ascii_letters+string.digits
 random_codes=lambda x,y:''.join([random.choice(x) for i in range(y)])
-print(random_codes(poolOfchars,15))
 
 def pad_zero_to_left(inputNumberString,totalLength):
     lengthOfInput=len(inputNumberString)
@@ -23,5 +23,5 @@ def invitation_code_generator(quantity,lengthOfRandom,LengthOfkey):
             print('index exceeds the length of master key')
 
 
-for invitationCode in invitation_code_generator(200,15,4):
+for invitationCode in invitation_code_generator(20, 15, 4):
     print(invitationCode)
