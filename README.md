@@ -6,3 +6,4 @@
 * 03:将优惠券保存到mysql关系型数据库中，使用了[pymysql](https://github.com/PyMySQL/PyMySQL)
 * 04:将优惠券保存到Redis非关系型数据库中，安装[redis](https://github.com/MSOpenTech/redis)使用[redis-py](https://github.com/andymccurdy/redis-py)操作库
 * 05:在一个英文文本文件中搜索指定单词的个数
+* 06:将一个目录下的多张照片，把它们的尺寸变成都不大于指定手机屏幕分辨率的大小，同01使用了[pillow](http://pillow.readthedocs.io/en/latest/index.html)来实现
