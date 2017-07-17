@@ -12,3 +12,4 @@
 * 09:查找网页中正文的内容（查找链接类似）,使用了[BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/index.html)对网页内容进行解析
 * 10：创建验证码图片
 * 11：实现关键字过滤功能，.strip()的作用是去掉前后的空格
+* 12：查找关键词并用*替换
