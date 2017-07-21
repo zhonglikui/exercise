@@ -10,7 +10,8 @@
 * 07:假设内容都是英文，请统计出你认为每篇日记最重要的词。实现思路参考自[这里](http://blog.csdn.net/Jacky_chenjp/article/details/52268272)
 * 08:统计代码行数
 * 09:查找网页中正文的内容（查找链接类似）,使用了[BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/index.html)对网页内容进行解析
-* 10：创建验证码图片
-* 11：实现关键字过滤功能，.strip()的作用是去掉前后的空格
-* 12：查找关键词并用*替换
-* 13：爬取百度贴吧的帖子[我看过整片银河，却只爱一颗星](https://tieba.baidu.com/p/5224471861)里面的美女图片
+* 10:创建验证码图片
+* 11:实现关键字过滤功能，.strip()的作用是去掉前后的空格
+* 12:查找关键词并用*替换
+* 13:爬取百度贴吧的帖子[我看过整片银河，却只爱一颗星](https://tieba.baidu.com/p/5224471861)里面的美女图片
+* 14:将文本信息写入到excel表格中，使用了[openpyxl](http://openpyxl.readthedocs.io/en/default/index.html)
