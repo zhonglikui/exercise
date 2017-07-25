@@ -16,3 +16,4 @@
 * 13:爬取百度贴吧的帖子[我看过整片银河，却只爱一颗星](https://tieba.baidu.com/p/5224471861)里面的美女图片
 * 14:将文本信息写入到excel表格中，使用了[openpyxl](http://openpyxl.readthedocs.io/en/default/index.html)
 * 15:将数据excel表格中的数据写入到xml文件中，通过[minidom](https://docs.python.org/3/library/xml.dom.minidom.html)来生成xml格式数据
+* 16:对数据进行加密处理，通过[ hashlib](https://docs.python.org/3/library/hashlib.html)来实现

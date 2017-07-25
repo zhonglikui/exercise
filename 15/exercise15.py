@@ -8,8 +8,7 @@ def read_file(path):
    wb=load_workbook(path,True)
    ws=wb['student']
    list=[]
-   r=0;
-   c=0;
+   r=0;c=0;
    for row in ws.rows:
        for cell in row:
            list.append(cell.value)
